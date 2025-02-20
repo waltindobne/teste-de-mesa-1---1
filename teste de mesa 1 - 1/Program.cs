@@ -67,12 +67,15 @@ namespace testeDemesa1
             Console.WriteLine($"Planilha 1 teste 3:");
             int[] v = new int[10];
             int a = 7;
-            int b = a - 7;
+            int b = a - 6;
+            int i;
             while (b < a)
             {
-                v[b] = b + a;
+                i = 0;
+                i++;
+                v[i] = b + a;
                 b = b + 2;
-                Console.WriteLine($"valor de a: {a}, valor de b: {b}");
+                Console.WriteLine($"valor de a: {a}, valor de b: {b}, v[b]: {v[i]}");
             }
         }
     }
