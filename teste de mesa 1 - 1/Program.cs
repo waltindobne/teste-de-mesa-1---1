@@ -11,6 +11,7 @@ namespace testeDemesa1
             Objects objects = new Objects();
             objects.Teste1();
             objects.Teste2();
+            Console.WriteLine();
             objects.Teste3();
         }
     }
@@ -49,6 +50,7 @@ namespace testeDemesa1
             int a = 2;
             string c = "verdadeiro";
             int i = 0;
+
             while (a <= 6)
             {
                 ++a;
